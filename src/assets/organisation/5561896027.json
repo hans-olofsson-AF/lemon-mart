@@ -1,0 +1,28 @@
+{
+    "kundnr": 10820200,
+    "orgnr": "5561896027",
+    "orgnamn": "Intel Sweden AB",
+    "orgtyp": "Elektronik",
+    "duns": 10011200,
+    "utdelningsadress": "Isafjordsgatan 30 B",
+    "postnr": "164 40",
+    "postort": "Kista",
+    "kommunKod": "0180",
+    "antalAnstallda": 57,
+    "omsattning": 357750000,
+    "telefon": "08-594 617 00",
+    "epost": "kontakt@intel.se",
+    "webbplats": "www.intel.com",
+    "logotype": "assets/images/intelLogo.jpg",
+    "kontaktperson": "Eskil Sturesson",
+    "arbetsplatserMini": [
+        {
+            "kundnr": 10820201,
+            "namn": "Intel Sweden - Uppsala"
+        },
+        {
+            "kundnr": 10820202,
+            "namn": "Intel Sweden - Karlstad"
+        }
+    ]
+}

@@ -2,12 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-arbetsgivare',
-  template: `
-    <p>
-      arbetsgivare works!
-    </p>
-  `,
-  styles: []
+  templateUrl: './arbetsgivare.component.html',
+  styleUrls: ['./arbetsgivare.component.css']
 })
 export class ArbetsgivareComponent implements OnInit {
 

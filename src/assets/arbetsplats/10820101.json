@@ -1,0 +1,41 @@
+{
+    "kundnr": 10820101,
+    "namn": "Apple - Uppsala",
+    "duns": 10011201,
+    "utdelningsadress": "Alriksgatan 12",
+    "postnr": "741 92",
+    "postort": "Uppsala",
+    "telefon": "018-518 23 00",
+    "epost": "uppsala@apple.se",
+    "kontaktperson": "Sverker Larson Hedin",
+    "handelserMini": [
+        {
+            "id": 1,
+            "typ": "Frukostseminarium"
+        },
+        {
+            "id": 2,
+            "typ": "Rekryteringsmässa"
+        },
+        {
+            "id": 3,
+            "typ": "Rekryteringsträff"
+        },
+        {
+            "id": 4,
+            "typ": "Frukostseminarium"
+        },
+        {
+            "id": 5,
+            "typ": "Rekryteringsmässa"
+        },
+        {
+            "id": 6,
+            "typ": "Rekryteringsträff"
+        },
+        {
+            "id": 7,
+            "typ": "Frukostseminarium"
+        }
+    ]
+}

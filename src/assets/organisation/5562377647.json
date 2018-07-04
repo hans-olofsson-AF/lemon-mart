@@ -1,0 +1,36 @@
+{
+    "kundnr": 10820100,
+    "orgnr": "5562377647",
+    "orgnamn": "Apple AB",
+    "orgtyp": "Elektronik",
+    "duns": 10011200,
+    "utdelningsadress": "Kungsgatan 49",
+    "postnr": "111 22",
+    "postort": "Stockholm",
+    "kommunKod": "0180",
+    "antalAnstallda": 225,
+    "omsattning": 919330000,
+    "telefon": "08-703 30 00",
+    "epost": "kontakt@apple.se",
+    "webbplats": "www.apple.se",
+    "logotype": "assets/images/appleLogo.png",
+    "kontaktperson": "Emil Andersson",
+    "arbetsplatserMini": [
+        {
+            "kundnr": 10820101,
+            "namn": "Apple - Uppsala"
+        },
+        {
+            "kundnr": 10820102,
+            "namn": "Apple - Karlstad"
+        },
+        {
+            "kundnr": 10820103,
+            "namn": "Apple - Boden"
+        },
+         {
+            "kundnr": 10820104,
+            "namn": "Apple - Helsingborg"
+        }
+    ]
+}
