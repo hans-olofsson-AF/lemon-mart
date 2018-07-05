@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import {CdkTableModule} from '@angular/cdk/table';
-import {CdkTreeModule} from '@angular/cdk/tree';
+import { CdkTableModule } from '@angular/cdk/table';
+import { CdkTreeModule } from '@angular/cdk/tree';
 import {
   MatAutocompleteModule,
   MatBadgeModule,
@@ -36,8 +36,10 @@ import {
   MatTabsModule,
   MatToolbarModule,
   MatTooltipModule,
-  MatTreeModule
+  MatTreeModule,
+  MatPaginatorIntl
 } from '@angular/material';
+import { MatPaginatorIntlSwe } from './mat-paginator-intl-swe';
 
 @NgModule({
   imports: [
@@ -74,7 +76,8 @@ import {
     MatTableModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTooltipModule
+    MatTooltipModule,
+   // MatPaginatorIntl
   ],
   exports: [
     CdkTableModule,
@@ -114,6 +117,7 @@ import {
     MatToolbarModule,
     MatTooltipModule
   ],
-  declarations: []
+  declarations: [],
+  providers: [{ provide: MatPaginatorIntl, useClass: MatPaginatorIntlSwe }]
 })
 export class MaterialModule {}

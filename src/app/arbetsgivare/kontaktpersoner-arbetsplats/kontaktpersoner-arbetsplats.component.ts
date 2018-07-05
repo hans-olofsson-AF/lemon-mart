@@ -6,10 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./kontaktpersoner-arbetsplats.component.css']
 })
 export class KontaktpersonerArbetsplatsComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
   }
-
 }
