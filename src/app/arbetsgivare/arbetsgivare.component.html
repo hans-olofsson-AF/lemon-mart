@@ -1,26 +1,31 @@
-<div fxLayout="row">
-  <div fxFlex="25%">
-    <app-arbetsplatser></app-arbetsplatser>
-  </div>
-  <div fxFlex="75%">
-    <app-organisation></app-organisation>
-  </div>
-</div>
-<div fxLayout="row">
-  <app-arbetsplats></app-arbetsplats>
-</div>
-<div fxLayout="row">
-  <div fxFlex="100%">
-    <app-kontaktpersoner-arbetsplats></app-kontaktpersoner-arbetsplats>
+<div class="basic-container shadow">
+  <div fxLayout="row">
+    <div fxFlex="25%">
+      <app-arbetsplatser></app-arbetsplatser>
+    </div>
+    <div fxFlex="75%">
+      <app-organisation></app-organisation>
+    </div>
   </div>
 </div>
-<div fxLayout="row">
-  <div fxFlex="100%">
-    <app-order></app-order>
+
+<div class="basic-container shadow">
+  <div fxLayout="row">
+    <app-arbetsplats></app-arbetsplats>
   </div>
-</div>
-<div fxLayout="row">
-  <div fxFlex="100%">
-    <app-tjansteanteckningar></app-tjansteanteckningar>
+  <div fxLayout="row" style="margin-top: 3px">
+    <div fxFlex="100%">
+      <app-kontaktpersoner-arbetsplats></app-kontaktpersoner-arbetsplats>
+    </div>
+  </div>
+  <div fxLayout="row" style="margin-top: 3px">
+    <div fxFlex="100%">
+      <app-order></app-order>
+    </div>
+  </div>
+  <div fxLayout="row" style="margin-top: 3px">
+    <div fxFlex="100%">
+      <app-tjansteanteckningar></app-tjansteanteckningar>
+    </div>
   </div>
 </div>
